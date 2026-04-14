@@ -5,25 +5,38 @@
     <meta charset="UTF-8">
     <title>Philipp Meißner – IT Product Owner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
+
     <style>
+        :root {
+            --text: #111;
+            --muted: #555;
+            --line: #ddd;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            max-width: 700px;
-            margin: 60px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #111;
+            max-width: 760px;
+            margin: 56px auto;
+            padding: 0 20px 60px;
+            line-height: 1.65;
+            color: var(--text);
         }
 
         h1 {
-            font-size: 28px;
-            margin-bottom: 5px;
+            font-size: 2rem;
+            margin: 0 0 6px;
+        }
+
+        .subline {
+            color: var(--muted);
+            margin-bottom: 32px;
         }
 
         h2 {
-            margin-top: 40px;
-            font-size: 18px;
+            font-size: 1rem;
+            margin: 36px 0 10px;
+            padding-top: 10px;
+            border-top: 1px solid var(--line);
         }
 
         p {
@@ -31,7 +44,22 @@
         }
 
         ul {
+            margin: 10px 0;
             padding-left: 20px;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .small {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -39,46 +67,50 @@
 <body>
 
     <h1>Philipp Meißner</h1>
-    <p>
-        IT Product Owner / Consultant<br>
+    <p class="subline">
+        Freiberuflicher IT Product Owner / Consultant<br>
         Schwerpunkt: komplexe IT-Systeme, Banking & Payment
     </p>
 
     <h2>Profil</h2>
     <p>
-        Freiberuflicher IT Product Owner mit langjähriger Erfahrung in der Softwareentwicklung,
-        insbesondere in technisch anspruchsvollen Projekten.
+        Ich unterstütze Unternehmen in technisch anspruchsvollen Projekten an der Schnittstelle
+        zwischen Fachlichkeit, Produktverantwortung und Entwicklung.
     </p>
     <p>
-        Schwerpunkt auf der Zusammenarbeit mit Entwicklungsteams sowie der strukturierten
-        Übersetzung fachlicher und technischer Anforderungen.
+        Mein Schwerpunkt liegt auf der strukturierten Aufbereitung von Anforderungen,
+        der Zusammenarbeit mit Entwicklungsteams sowie der Übersetzung komplexer fachlicher
+        und technischer Zusammenhänge in umsetzbare Ergebnisse.
     </p>
 
     <h2>Kompetenzen</h2>
     <ul>
-        <li>Product Ownership (Scrum / agile Entwicklung)</li>
+        <li>Product Ownership in agilen Entwicklungsumfeldern</li>
         <li>Anforderungsmanagement und Spezifikation</li>
-        <li>Zusammenarbeit mit Entwicklungsteams</li>
+        <li>Zusammenarbeit mit Entwicklungs- und Architekturteams</li>
         <li>Architektur-nahe Themen und technische Konzepte</li>
-        <li>Erfahrung in regulierten Umfeldern</li>
-        <li>Banking, Payment & komplexe IT-Systeme</li>
+        <li>Erfahrung in regulierten und fachlich komplexen Umfeldern</li>
+        <li>Banking, Payment, Versicherungen und Handel</li>
     </ul>
 
     <h2>Erfahrung</h2>
     <p>
-        Über 25 Jahre Erfahrung als IT-Consultant, Software-Architekt, Lead-Developer und Entwicklungsleiter.
+        Über 25 Jahre Erfahrung in unterschiedlichen Rollen der Softwareentwicklung,
+        unter anderem als IT-Consultant, Software-Architekt, Lead-Developer und Entwicklungsleiter.
     </p>
     <p>
-        Erfahrung in der Umsetzung und Weiterentwicklung komplexer Softwaresysteme
-        sowie in der Zusammenarbeit mit Entwicklungsteams in anspruchsvollen Projekten.
-    </p>
-    <p>
-        Schwerpunkte in den Bereichen Banking, Payment, Versicherungen und Handel.
+        Ich bringe langjährige Erfahrung in der Umsetzung und Weiterentwicklung komplexer
+        Softwaresysteme mit und arbeite sicher in Projekten mit hohem fachlichem
+        und technischem Anspruch.
     </p>
 
     <h2>Kontakt</h2>
     <p>
-        Kontaktmöglichkeiten bestehen über gängige Plattformen wie LinkedIn oder Freelancermap.
+        Kontakt über
+        <a href="www.linkedin.com/in/philipp-meißner-hh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        oder
+        <a href="https://www.freelancermap.de/profil/java-entwickler-projektleiter" target="_blank"
+            rel="noopener noreferrer">freelancermap</a>.
     </p>
 
     <h2>Impressum</h2>
@@ -86,6 +118,10 @@
         Philipp Meißner<br>
         Flotowstr. 21<br>
         22083 Hamburg
+    </p>
+
+    <p class="small">
+        Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV: Philipp Meißner, Anschrift wie oben.
     </p>
 
 </body>
